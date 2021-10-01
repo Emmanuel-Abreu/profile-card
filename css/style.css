@@ -1,0 +1,111 @@
+body
+{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-container
+{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px gray solid;
+    overflow: hidden;
+}
+
+.card-container .card-info p
+{
+    align-items: center;
+}
+
+.card-banner{
+    background-color: hsl(185, 75%, 39%);
+    flex: 1;
+    height: 33%;
+    width: 100%;
+}
+
+.card-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex: 1;
+    height: 33%;
+    width: 100%;
+}
+
+.card-info img
+{
+    border-radius: 50%;
+    margin: -30px;
+}
+
+.card-info p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card-stats
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    flex: 0.7;
+    height: 33%;
+    width: 100%;
+}
+
+.card-followers
+{
+    background-color: white;
+}
+
+.card-likes
+{
+    background-color: white;
+}
+
+.card-photos
+{
+    background-color: white;
+}
+
+/* .number
+{
+
+}
+
+.type
+{
+
+}
+
+.name
+{
+
+}
+
+.age
+{
+
+}
+
+.location
+{
+
+} */
