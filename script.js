@@ -1,9 +1,9 @@
 let profileCard =
 {
-    name: "Victor Crest",
-    age: 26,
-    location: "London",
-    profilePic: "images/image-victor.jpg",
+    name: "Emmanuel Abreu",
+    age: 24,
+    location: "New York",
+    profilePic: "images/me.jpg",
 
     stats:
     {
