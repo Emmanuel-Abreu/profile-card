@@ -7,13 +7,14 @@ body
     width: auto;
     margin: 0;
     font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .background-container
 {
     display: flex;
     background-image: url("images/bg-pattern-top.svg");
-    background-color: hsl(229, 23%, 23%);
+    background-color: hsl(185, 75%, 39%);
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -39,8 +40,19 @@ body
     align-items: center;
 }
 
+.bolder-card-text
+{
+    font-weight: 700;
+}
+
+.smaller-card-text
+{
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+}
+
 .card-banner{
-    background-color: hsl(227, 10%, 46%);
+    background-color: hsl(229, 23%, 23%);
     flex: 1;
     height: 33%;
     width: 100%;
@@ -49,26 +61,59 @@ body
 .card-info
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
     flex: 1;
     height: 33%;
     width: 100%;
+    padding-bottom: -80px;
 }
 
 .card-info img
 {
     border-radius: 50%;
-    margin: -30px;
+    margin-top: -100px;
 }
 
 .card-info p
 {
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.card-info span
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-info p.card-location
+{
+    margin-top: -70px;
+}
+
+.card-info span .bolder-card-text, .card-info span .card-age
+{
+    margin-top: 10px;
+}
+
+.card-age
+{
+    margin-left: 5px;
+    color: hsl(0, 0%, 59%);
+}
+
+.card-location
+{
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
 }
 
 .card-stats
@@ -84,42 +129,21 @@ body
     width: 100%;
 }
 
-.card-followers
+.card-followers, .card-likes, .card-photos
 {
-    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.card-likes
+.stat-text
 {
-    background-color: white;
+    font-weight: lighter;
 }
 
-.card-photos
+.card-stats span
 {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-/* .number
-{
-
-}
-
-.type
-{
-
-}
-
-.name
-{
-
-}
-
-.age
-{
-
-}
-
-.location
-{
-
-} */
